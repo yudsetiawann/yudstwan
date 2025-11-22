@@ -47,7 +47,7 @@ export default function Contact() {
                 id="name"
                 required
                 className="w-full px-4 py-3 rounded-xl  bg-zinc-950 border  border-zinc-800 focus:outline-none focus:ring-2 focus:ring-yellow-500/50 focus:border-yellow-500 transition-all placeholder:text-zinc-400"
-                placeholder="John Doe"
+                placeholder="Ethan Chaiden Barnard"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
@@ -62,7 +62,7 @@ export default function Contact() {
                 id="email"
                 required
                 className="w-full px-4 py-3 rounded-xl  bg-zinc-950 border  border-zinc-800 focus:outline-none focus:ring-2 focus:ring-yellow-500/50 focus:border-yellow-500 transition-all placeholder:text-zinc-400"
-                placeholder="john@example.com"
+                placeholder="ethan@example.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
