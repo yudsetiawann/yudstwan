@@ -7,14 +7,14 @@ const projectsData = [
     description: "A comprehensive ticketing management system for Perisai Diri organization. Features include event registration, payment gateway integration (Midtrans), and athlete attendance tracking.",
     imageUrl: "/getix.png", // Pastikan file ini ada di folder public
     link: "https://github.com/yudsetiawann/geTix-PD",
-    tech: ["Laravel", "Filament", "Livewire", "MySQL", "Midtrans"],
+    tech: ["Laravel", "Filament", "Livewire", "Tailwind CSS", "MySQL", "CPanel", "Midtrans"],
   },
   {
     title: "Blog System",
     description: "An interactive platform for content creation. Users can publish articles, manage profiles, and engage in real-time discussions via a built-in chat feature.",
     imageUrl: "/prs.png",
     link: "https://github.com/yudsetiawann/Blog-System",
-    tech: ["Laravel", "Bootstrap", "MySQL", "Chat API"],
+    tech: ["Laravel", "Tailwind CSS", "Alpine.js", "MySQL", "CPanel"],
   },
   {
     title: "Webstore",
