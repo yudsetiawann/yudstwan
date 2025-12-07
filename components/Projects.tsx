@@ -21,7 +21,7 @@ const projectsData = [
     description: "A full-featured e-commerce solution supporting product browsing, cart management, and secure checkout processes for a seamless shopping experience.",
     imageUrl: "/webstore.png",
     link: "https://github.com/yudsetiawann/webstoree",
-    tech: ["Laravel", "Tailwind CSS", "Alpine.js", "Payment Gateway"],
+    tech: ["Laravel", "Tailwind CSS", "Alpine.js", "MySQL", "Moota"],
   },
 ];
 
