@@ -1,5 +1,5 @@
 // components/About.tsx
-import { FaInstagram, FaLinkedinIn, FaFacebookF, FaTiktok, FaArrowRight } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaFacebookF, FaTiktok, FaArrowRight, FaGithub } from "react-icons/fa";
 
 export default function About() {
   // Data hobi dipisah agar bisa di-looping menjadi badges
@@ -23,10 +23,10 @@ export default function About() {
             Life is a journey of learning and growth. Born and raised in <strong className="text-zinc-200">Tasikmalaya</strong> as the youngest of six siblings, I’ve always been driven by curiosity about how the world works.
           </p>
           <p>
-            I thrive on exploring new things. Beyond lines of code, I have a deep passion for sports—specifically <strong className="text-zinc-200">Pencak Silat</strong>—which keeps me disciplined and focused. I also express my creativity
+            I thrive on exploring new things. Beyond lines of code, I have a deep passion for sports, specifically <strong className="text-zinc-200">Pencak Silat</strong> which keeps me disciplined and focused. I also express my creativity
             through graphic design and photography.
           </p>
-          <p>For me, life is about continuous improvement (Kaizen). Through this portfolio, I hope to share my projects and personal growth with you.</p>
+          <p>For me, life is about continuous improvement(Kaizen). Through this portfolio, I hope to share my projects and personal growth with you.</p>
 
           {/* Interest Tags (Modern Touch) */}
           <div className="pt-4">
@@ -50,6 +50,9 @@ export default function About() {
 
             {/* Social Links List */}
             <div className="flex flex-col gap-4">
+              {/* --- GITHUB ADDED HERE --- */}
+              <SocialLink href="https://github.com/yudsetiawann/" icon={<FaGithub />} label="Explore on GitHub" />
+
               <SocialLink href="https://www.linkedin.com/in/yudisetiawann/" icon={<FaLinkedinIn />} label="Connect on LinkedIn" />
               <SocialLink href="https://www.instagram.com/yudstwan_/" icon={<FaInstagram />} label="Follow on Instagram" />
               <SocialLink href="https://www.facebook.com/yudsetiawann/" icon={<FaFacebookF />} label="Add on Facebook" />
